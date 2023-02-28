@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(/fondo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contenedorGeneral{
+    width: 70% ;
+    height: 100%; 
+    margin: 0% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorMenu{
+    border-bottom-left-radius: 5px;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.portada h1{
+    text-align: center;
+    color: rgb(214, 214, 214);
+    font-size: 2rem;
+}
+
+.portada p{
+    text-align: center;
+    color: rgb(226, 221, 221);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.portada img{
+    border-radius: 8px;
+    width: 90%;
+    height: 61%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    gap: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu button{
+    color: rgb(214, 214, 214);
+    border: solid 1px rgba(0, 0, 0, 0.384);
+    border-radius: 5px;
+    width: 90%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.menu button a{
+    text-decoration: none;
+    color: white;
+}
+
+menu button a:visited{
+    color: white;
+}
+
+.menu button:hover{
+    transform: scale(1.1);
+    background-color: rgba(240, 239, 238, 0.2);
+    color: black;
+    font-weight: 700;
+    transition: 0.7s;
+}
+
+.contenedorInformacion{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    background-color: rgba(207, 207, 207, 0.7);
+}
+
+.contenedorInformacion .perfil{
+    position: relative;
+    top: 50px;
+}
+
+.contenedorInformacion p{
+    position: relative;
+    top: 50px;
+    margin: 2.5%;
+    width: 60%;
+    height: 20%;
+    text-align: center;
+}
+
+.contenido{
+    width: 60%;
+    height: 70%;
+    margin: 0 auto 2.5% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+#contenedorContacto ul, #contenedorIdiomas ul{
+    list-style: none;
+}
+
+#contenedorContacto li, #contenedorHabilidades li, #contenedorIdiomas li, #contenedorEducacion li, #contenedorInformatica li{
+    margin: 10px 0;
+}
+
+#contenedorContacto li a{
+    text-decoration: none;
+    color: black;
+}
+
+#contenedorEducacion, #contenedorInformatica{
+    gap: 20px;
+}
